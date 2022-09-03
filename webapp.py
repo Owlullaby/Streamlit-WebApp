@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import time
 
-st.header("My first Python Web App")
+st.header("My first Python Web App on Streamlit")
 
 readme = st.checkbox("readme first")
 
@@ -12,7 +12,7 @@ if readme:
 
     st.write("""
         This is a web app demo using [streamlit](https://streamlit.io/) library. It is hosted on streamlit cloud. You may get the codes via [github](https://github.com/Owlullaby/Streamlit-WebApp)
-        """)
+        following original code from Dr. Yu Yong Poh during his public talk session.""")
 
     st.write ("For more info, please contact:")
 
